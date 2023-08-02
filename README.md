@@ -8,5 +8,5 @@
 6. Clone this showcase repository: `git clone git@github.com:uschtwill/gopass-direnv-showcase.git`
 7. `cd` into the directory and run `direnv allow` to allow `direnv` to work here.
 8. The secrets should be loaded now, if not `cd` out of and back into the directory.
-9. `direnv` should now have loaded the secrets for you, maybe prompting you to insert your gpg key passphrase.
+9. `direnv` should now have loaded the secrets for you, maybe prompting you to insert your gpg key passphrase (if it's not within the cooldown).
 10. Run `node index.js`, the rest is history.
